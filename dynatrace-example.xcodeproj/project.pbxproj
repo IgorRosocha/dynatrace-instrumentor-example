@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043AC158FEA61B9F77AAF24B /* DynatraceSessionReplay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F35C37BF3441C7A8D022E742 /* DynatraceSessionReplay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3801281255A7556590BF44F3 /* DynatraceExample2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A58598B57D0965286D0DE77 /* DynatraceExample2Tests.swift */; };
+		3CD766EDCD9DF5BCC76AB9B5 /* Dynatrace.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA9C8BD4F43B0E8C8ADC4E9 /* Dynatrace.xcframework */; };
+		5FAC215EF7911958EB29FC8A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E448D9C937459A425F717D /* main.swift */; };
+		96791D6B3E34F5E849778765 /* TuistAssets+DynatraceExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF73B60B110B4196FAF785A2 /* TuistAssets+DynatraceExample.swift */; };
+		A680608AA3293990A48E1BF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A317DDB85CA912C697632AE /* AppDelegate.swift */; };
+		A8AAEBFA0812FB0A032353F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B35EA43EB779D1296ED1BA6 /* Preview Assets.xcassets */; };
+		AB7E856FF275E17CE41B699E /* Dynatrace.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA9C8BD4F43B0E8C8ADC4E9 /* Dynatrace.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE380BF925AD4A1EA6A7AB4A /* DynatraceSessionReplay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35C37BF3441C7A8D022E742 /* DynatraceSessionReplay.xcframework */; };
+		B3A016BF0E045C767383238F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96215655BA26377C5917E3AA /* Assets.xcassets */; };
+		D0B6C96CA2A2FC862D23701B /* TuistBundle+DynatraceExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755F5DA4BEC4EA4C2B3B712 /* TuistBundle+DynatraceExample.swift */; };
+		E9EE689BFE5062B150B84ED3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E0A51FE5C6A297E6174D56 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E45A2C6A4C45DEA358E19EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1DB11D0DA04C6B56A31B47F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C34203E5299F716C2F427913;
+			remoteInfo = "dynatrace-example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		723B5E56E50483F3059032D8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD68828F8E8652FDD110601F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AB7E856FF275E17CE41B699E /* Dynatrace.xcframework in Embed Frameworks */,
+				043AC158FEA61B9F77AAF24B /* DynatraceSessionReplay.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06D371F64057DFCDE68EF632 /* dynatrace-example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "dynatrace-example-Info.plist"; sourceTree = "<group>"; };
+		0755F5DA4BEC4EA4C2B3B712 /* TuistBundle+DynatraceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DynatraceExample.swift"; sourceTree = "<group>"; };
+		1A58598B57D0965286D0DE77 /* DynatraceExample2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynatraceExample2Tests.swift; sourceTree = "<group>"; };
+		2A317DDB85CA912C697632AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FA9C8BD4F43B0E8C8ADC4E9 /* Dynatrace.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:XSVX2UL7V5:Dynatrace LLC"; lastKnownFileType = wrapper.xcframework; path = Dynatrace.xcframework; sourceTree = "<group>"; };
+		96215655BA26377C5917E3AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99E448D9C937459A425F717D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B35EA43EB779D1296ED1BA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8ACFEBC2DCD590E6F7E656F /* dynatrace_example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dynatrace_example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E0A51FE5C6A297E6174D56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF73B60B110B4196FAF785A2 /* TuistAssets+DynatraceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+DynatraceExample.swift"; sourceTree = "<group>"; };
+		DB2098CFA586BC7FFF5BF7F6 /* dynatrace-exampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "dynatrace-exampleTests-Info.plist"; sourceTree = "<group>"; };
+		F35C37BF3441C7A8D022E742 /* DynatraceSessionReplay.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:XSVX2UL7V5:Dynatrace LLC"; lastKnownFileType = wrapper.xcframework; path = DynatraceSessionReplay.xcframework; sourceTree = "<group>"; };
+		FAF6335EE52D5CA5CB4A45AF /* dynatrace_exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dynatrace_exampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B6BFA071D1D600F89650A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9996E0F67D988A5E7DF0BB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD766EDCD9DF5BCC76AB9B5 /* Dynatrace.xcframework in Frameworks */,
+				AE380BF925AD4A1EA6A7AB4A /* DynatraceSessionReplay.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06BADA71CF4B7CA071B3E896 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				06D371F64057DFCDE68EF632 /* dynatrace-example-Info.plist */,
+				DB2098CFA586BC7FFF5BF7F6 /* dynatrace-exampleTests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		0EECEB2F5C34B1529CEDFDCF = {
+			isa = PBXGroup;
+			children = (
+				56A0D373881F65E10C4D22A4 /* Project */,
+				175F67638530CDE704EB115F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		175F67638530CDE704EB115F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8ACFEBC2DCD590E6F7E656F /* dynatrace_example.app */,
+				FAF6335EE52D5CA5CB4A45AF /* dynatrace_exampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		430CB8206492D97B3918D719 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BF73B60B110B4196FAF785A2 /* TuistAssets+DynatraceExample.swift */,
+				0755F5DA4BEC4EA4C2B3B712 /* TuistBundle+DynatraceExample.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4ACE60C130A91050D985756A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B35EA43EB779D1296ED1BA6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		56A0D373881F65E10C4D22A4 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				BDC4F9937D3C801D0A3E07F1 /* Carthage */,
+				DFABE18D9F071B64841A6CC6 /* Derived */,
+				61BE4188CC9F3C6806850DE7 /* dynatrace-example */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		61BE4188CC9F3C6806850DE7 /* dynatrace-example */ = {
+			isa = PBXGroup;
+			children = (
+				BD737F2BC109E79C9ECB0C89 /* Resources */,
+				7B06B0EF2959A1E231DA1BB0 /* Sources */,
+				C0C0D215A931FAD47AA1AC12 /* Tests */,
+			);
+			path = "dynatrace-example";
+			sourceTree = "<group>";
+		};
+		7B06B0EF2959A1E231DA1BB0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2A317DDB85CA912C697632AE /* AppDelegate.swift */,
+				B2E0A51FE5C6A297E6174D56 /* ContentView.swift */,
+				99E448D9C937459A425F717D /* main.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8EAF2B1D96FFFB2F15DA4CD8 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				2FA9C8BD4F43B0E8C8ADC4E9 /* Dynatrace.xcframework */,
+				F35C37BF3441C7A8D022E742 /* DynatraceSessionReplay.xcframework */,
+			);
+			path = Build;
+			sourceTree = "<group>";
+		};
+		BD737F2BC109E79C9ECB0C89 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4ACE60C130A91050D985756A /* Preview Content */,
+				96215655BA26377C5917E3AA /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BDC4F9937D3C801D0A3E07F1 /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				8EAF2B1D96FFFB2F15DA4CD8 /* Build */,
+			);
+			path = Carthage;
+			sourceTree = "<group>";
+		};
+		C0C0D215A931FAD47AA1AC12 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1A58598B57D0965286D0DE77 /* DynatraceExample2Tests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		DFABE18D9F071B64841A6CC6 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				06BADA71CF4B7CA071B3E896 /* InfoPlists */,
+				430CB8206492D97B3918D719 /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C34203E5299F716C2F427913 /* dynatrace-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A7C149D0923CC3BD0D7E999 /* Build configuration list for PBXNativeTarget "dynatrace-example" */;
+			buildPhases = (
+				9C5BE2F8E1A3516FCAD273FC /* Sources */,
+				7B86DD5120975014360BA225 /* Resources */,
+				DD68828F8E8652FDD110601F /* Embed Frameworks */,
+				9996E0F67D988A5E7DF0BB73 /* Frameworks */,
+				595EBAE1FD85A182347B0447 /* Dynatrace Instrumentation script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dynatrace-example";
+			productName = dynatrace_example;
+			productReference = A8ACFEBC2DCD590E6F7E656F /* dynatrace_example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D384DF5C718A2B6C3548DB59 /* dynatrace-exampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3EE29A97272247B81C8C95 /* Build configuration list for PBXNativeTarget "dynatrace-exampleTests" */;
+			buildPhases = (
+				FD88DFD5F7080B738276AD77 /* Sources */,
+				3B8F57341EBF7A1FE944F045 /* Resources */,
+				723B5E56E50483F3059032D8 /* Embed Frameworks */,
+				8B6BFA071D1D600F89650A46 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE43408B7A21CD6E628EB5DF /* PBXTargetDependency */,
+			);
+			name = "dynatrace-exampleTests";
+			productName = dynatrace_exampleTests;
+			productReference = FAF6335EE52D5CA5CB4A45AF /* dynatrace_exampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1DB11D0DA04C6B56A31B47F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+					D384DF5C718A2B6C3548DB59 = {
+						TestTargetID = C34203E5299F716C2F427913;
+					};
+				};
+			};
+			buildConfigurationList = 612E1BF5E09C1CB8C37ABB57 /* Build configuration list for PBXProject "dynatrace-example" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0EECEB2F5C34B1529CEDFDCF;
+			productRefGroup = 175F67638530CDE704EB115F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C34203E5299F716C2F427913 /* dynatrace-example */,
+				D384DF5C718A2B6C3548DB59 /* dynatrace-exampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B8F57341EBF7A1FE944F045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B86DD5120975014360BA225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A016BF0E045C767383238F /* Assets.xcassets in Resources */,
+				A8AAEBFA0812FB0A032353F5 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		595EBAE1FD85A182347B0447 /* Dynatrace Instrumentation script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Dynatrace Instrumentation script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT\"/BuildPhases/Dynatrace.sh ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C5BE2F8E1A3516FCAD273FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96791D6B3E34F5E849778765 /* TuistAssets+DynatraceExample.swift in Sources */,
+				D0B6C96CA2A2FC862D23701B /* TuistBundle+DynatraceExample.swift in Sources */,
+				A680608AA3293990A48E1BF3 /* AppDelegate.swift in Sources */,
+				E9EE689BFE5062B150B84ED3 /* ContentView.swift in Sources */,
+				5FAC215EF7911958EB29FC8A /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD88DFD5F7080B738276AD77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3801281255A7556590BF44F3 /* DynatraceExample2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE43408B7A21CD6E628EB5DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "dynatrace-example";
+			target = C34203E5299F716C2F427913 /* dynatrace-example */;
+			targetProxy = E45A2C6A4C45DEA358E19EB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18AD3FAEA2BF052B0FBA997A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47C70080073468307F120ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/dynatrace-exampleTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.tuist.dynatrace-exampleTests";
+				PRODUCT_NAME = dynatrace_exampleTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dynatrace_example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dynatrace_example";
+				TEST_TARGET_NAME = "dynatrace-example";
+			};
+			name = Release;
+		};
+		48EEE318645D7C98A131B757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Carthage/Build",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/dynatrace-example-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.tuist.dynatrace-example";
+				PRODUCT_NAME = dynatrace_example;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A075E542906B9A45A1780DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DB1D3F85582F7DB39DFC2B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/dynatrace-exampleTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.tuist.dynatrace-exampleTests";
+				PRODUCT_NAME = dynatrace_exampleTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dynatrace_example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dynatrace_example";
+				TEST_TARGET_NAME = "dynatrace-example";
+			};
+			name = Debug;
+		};
+		BB7675C2A86CB5D705840096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Carthage/Build",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/dynatrace-example-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.tuist.dynatrace-example";
+				PRODUCT_NAME = dynatrace_example;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B3EE29A97272247B81C8C95 /* Build configuration list for PBXNativeTarget "dynatrace-exampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB1D3F85582F7DB39DFC2B3 /* Debug */,
+				47C70080073468307F120ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		612E1BF5E09C1CB8C37ABB57 /* Build configuration list for PBXProject "dynatrace-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AD3FAEA2BF052B0FBA997A /* Debug */,
+				7A075E542906B9A45A1780DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A7C149D0923CC3BD0D7E999 /* Build configuration list for PBXNativeTarget "dynatrace-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7675C2A86CB5D705840096 /* Debug */,
+				48EEE318645D7C98A131B757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1DB11D0DA04C6B56A31B47F /* Project object */;
+}
