@@ -1,61 +1,63 @@
-2024-10-17 17:22:13.161    main                	Starting DTSwiftInstrumentor (Version: 8.299.1.1005, Path: /opt/homebrew/bin/DTSwiftInstrumentor)
-2024-10-17 17:22:13.166    main                	Executing command: /opt/homebrew/bin/DTSwiftInstrumentor instrument /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example
-2024-10-17 17:22:13.166    CrashReporter       	Initializing crash reporter
-2024-10-17 17:22:13.241    Instrument          	Create missing .dynatrace dir at /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/.dynatrace
-2024-10-17 17:22:13.241    BuildSettingsHelpers	Checking Info.plists for custom settings
-2024-10-17 17:22:13.244    BuildSettingsHelpers	- Checking Derived/InfoPlists/dynatrace-example-Info.plist
-2024-10-17 17:22:13.244    BuildSettingsHelpers	-- Found Derived/InfoPlists/dynatrace-example-Info.plist
-2024-10-17 17:22:13.244    BuildSettingsHelpers	-- Found Derived/InfoPlists/dynatrace-example-Info.plist
-2024-10-17 17:22:13.244    BuildSettingsHelpers	-- Found Derived/InfoPlists/dynatrace-example-Info.plist
-2024-10-17 17:22:13.244    BuildSettingsHelpers	-- Found Derived/InfoPlists/dynatrace-example-Info.plist
-2024-10-17 17:22:13.245    BuildSettingsHelpers	-- Found Derived/InfoPlists/dynatrace-example-Info.plist
-2024-10-17 17:22:13.245    BuildSettingsHelpers	-- Found Derived/InfoPlists/dynatrace-example-Info.plist
-2024-10-17 17:22:13.245    BuildSettingsHelpers	-- Found Derived/InfoPlists/dynatrace-example-Info.plist
-2024-10-17 17:22:13.245    BuildSettingsHelpers	-- Found Derived/InfoPlists/dynatrace-example-Info.plist
-2024-10-17 17:22:13.245    BuildSettingsHelpers	- Checking Derived/InfoPlists/dynatrace-exampleTests-Info.plist
-2024-10-17 17:22:13.247    BuildSettingsHelpers	- Checking Carthage/Build/Dynatrace.xcframework/tvos-arm64/Dynatrace.framework/Info.plist
-2024-10-17 17:22:13.247    BuildSettingsHelpers	-- Found Carthage/Build/Dynatrace.xcframework/tvos-arm64/Dynatrace.framework/Info.plist
-2024-10-17 17:22:13.247    BuildSettingsHelpers	-- Found Carthage/Build/Dynatrace.xcframework/tvos-arm64/Dynatrace.framework/Info.plist
-2024-10-17 17:22:13.248    BuildSettingsHelpers	- Checking Carthage/Build/Dynatrace.xcframework/tvos-arm64_x86_64-simulator/Dynatrace.framework/Info.plist
-2024-10-17 17:22:13.248    BuildSettingsHelpers	-- Found Carthage/Build/Dynatrace.xcframework/tvos-arm64_x86_64-simulator/Dynatrace.framework/Info.plist
-2024-10-17 17:22:13.248    BuildSettingsHelpers	-- Found Carthage/Build/Dynatrace.xcframework/tvos-arm64_x86_64-simulator/Dynatrace.framework/Info.plist
-2024-10-17 17:22:13.249    BuildSettingsHelpers	- Checking Carthage/Build/Dynatrace.xcframework/ios-arm64_x86_64-simulator/Dynatrace.framework/Info.plist
-2024-10-17 17:22:13.249    BuildSettingsHelpers	-- Found Carthage/Build/Dynatrace.xcframework/ios-arm64_x86_64-simulator/Dynatrace.framework/Info.plist
-2024-10-17 17:22:13.250    BuildSettingsHelpers	-- Found Carthage/Build/Dynatrace.xcframework/ios-arm64_x86_64-simulator/Dynatrace.framework/Info.plist
-2024-10-17 17:22:13.250    BuildSettingsHelpers	- Checking Carthage/Build/Dynatrace.xcframework/ios-arm64/Dynatrace.framework/Info.plist
-2024-10-17 17:22:13.250    BuildSettingsHelpers	-- Found Carthage/Build/Dynatrace.xcframework/ios-arm64/Dynatrace.framework/Info.plist
-2024-10-17 17:22:13.250    BuildSettingsHelpers	-- Found Carthage/Build/Dynatrace.xcframework/ios-arm64/Dynatrace.framework/Info.plist
-2024-10-17 17:22:13.250    BuildSettingsHelpers	- Checking Carthage/Build/Dynatrace.xcframework/Info.plist
-2024-10-17 17:22:13.251    BuildSettingsHelpers	- Checking Carthage/Build/iOS/DynatraceSessionReplay.framework/CoreDataModel.momd/VersionInfo.plist
-2024-10-17 17:22:13.252    BuildSettingsHelpers	- Checking Carthage/Build/iOS/DynatraceSessionReplay.framework/Info.plist
-2024-10-17 17:22:13.252    BuildSettingsHelpers	-- Found Carthage/Build/iOS/DynatraceSessionReplay.framework/Info.plist
-2024-10-17 17:22:13.252    BuildSettingsHelpers	-- Found Carthage/Build/iOS/DynatraceSessionReplay.framework/Info.plist
-2024-10-17 17:22:13.252    BuildSettingsHelpers	-- Found Carthage/Build/iOS/DynatraceSessionReplay.framework/Info.plist
-2024-10-17 17:22:13.253    BuildSettingsHelpers	- Checking Carthage/Build/iOS/Dynatrace.framework/Info.plist
-2024-10-17 17:22:13.253    BuildSettingsHelpers	-- Found Carthage/Build/iOS/Dynatrace.framework/Info.plist
-2024-10-17 17:22:13.253    BuildSettingsHelpers	-- Found Carthage/Build/iOS/Dynatrace.framework/Info.plist
-2024-10-17 17:22:13.254    BuildSettingsHelpers	- Checking Carthage/Build/tvOS/DynatraceTVOS.framework/Info.plist
-2024-10-17 17:22:13.255    BuildSettingsHelpers	-- Found Carthage/Build/tvOS/DynatraceTVOS.framework/Info.plist
-2024-10-17 17:22:13.255    BuildSettingsHelpers	-- Found Carthage/Build/tvOS/DynatraceTVOS.framework/Info.plist
-2024-10-17 17:22:13.256    BuildSettingsHelpers	- Checking Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64_x86_64-simulator/DynatraceSessionReplay.framework/CoreDataModel.momd/VersionInfo.plist
-2024-10-17 17:22:13.257    BuildSettingsHelpers	- Checking Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64_x86_64-simulator/DynatraceSessionReplay.framework/Info.plist
-2024-10-17 17:22:13.257    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64_x86_64-simulator/DynatraceSessionReplay.framework/Info.plist
-2024-10-17 17:22:13.257    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64_x86_64-simulator/DynatraceSessionReplay.framework/Info.plist
-2024-10-17 17:22:13.258    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64_x86_64-simulator/DynatraceSessionReplay.framework/Info.plist
-2024-10-17 17:22:13.258    BuildSettingsHelpers	- Checking Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64/DynatraceSessionReplay.framework/CoreDataModel.momd/VersionInfo.plist
-2024-10-17 17:22:13.259    BuildSettingsHelpers	- Checking Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64/DynatraceSessionReplay.framework/Info.plist
-2024-10-17 17:22:13.259    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64/DynatraceSessionReplay.framework/Info.plist
-2024-10-17 17:22:13.259    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64/DynatraceSessionReplay.framework/Info.plist
-2024-10-17 17:22:13.260    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64/DynatraceSessionReplay.framework/Info.plist
-2024-10-17 17:22:13.260    BuildSettingsHelpers	- Checking Carthage/Build/DynatraceSessionReplay.xcframework/Info.plist
-2024-10-17 17:22:13.261    BuildSettingsHelpers	- Checking Carthage/Build/DynatraceStatic.xcframework/ios-arm64_x86_64-simulator/DynatraceStatic.framework/Info.plist
-2024-10-17 17:22:13.261    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceStatic.xcframework/ios-arm64_x86_64-simulator/DynatraceStatic.framework/Info.plist
-2024-10-17 17:22:13.261    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceStatic.xcframework/ios-arm64_x86_64-simulator/DynatraceStatic.framework/Info.plist
-2024-10-17 17:22:13.262    BuildSettingsHelpers	- Checking Carthage/Build/DynatraceStatic.xcframework/ios-arm64/DynatraceStatic.framework/Info.plist
-2024-10-17 17:22:13.262    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceStatic.xcframework/ios-arm64/DynatraceStatic.framework/Info.plist
-2024-10-17 17:22:13.263    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceStatic.xcframework/ios-arm64/DynatraceStatic.framework/Info.plist
-2024-10-17 17:22:13.263    BuildSettingsHelpers	- Checking Carthage/Build/DynatraceStatic.xcframework/Info.plist
-2024-10-17 17:22:13.265    BuildSettingsHelpers	Found custom settings: {
+2024-10-18 12:11:32.874    main                	Starting DTSwiftInstrumentor (Version: 8.299.1.1005, Path: /opt/homebrew/bin/DTSwiftInstrumentor)
+2024-10-18 12:11:32.878    main                	Executing command: /opt/homebrew/bin/DTSwiftInstrumentor instrument /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example
+2024-10-18 12:11:32.879    CrashReporter       	Initializing crash reporter
+2024-10-18 12:11:32.955    ProcessTools        	⚠️ warning ⚠️: Found 1 other instances of the instrumentor running. Please check if the running processes are intentional, otherwise this could be a bug (symptom). List of other instrumentor processes:
+2024-10-18 12:11:32.955    ProcessTools        	⚠️ warning ⚠️:    PID TTY           TIME CMD
+2024-10-18 12:11:32.955    ProcessTools        	⚠️ warning ⚠️: - 49216 ttys000    0:00.52 /opt/homebrew/bin/DTSwiftInstrumentor watchdog /Users/igor/Desktop/Ackee/jt-bank
+2024-10-18 12:11:32.958    BuildSettingsHelpers	Checking Info.plists for custom settings
+2024-10-18 12:11:32.961    BuildSettingsHelpers	- Checking Derived/InfoPlists/dynatrace-example-Info.plist
+2024-10-18 12:11:32.961    BuildSettingsHelpers	-- Found Derived/InfoPlists/dynatrace-example-Info.plist
+2024-10-18 12:11:32.961    BuildSettingsHelpers	-- Found Derived/InfoPlists/dynatrace-example-Info.plist
+2024-10-18 12:11:32.961    BuildSettingsHelpers	-- Found Derived/InfoPlists/dynatrace-example-Info.plist
+2024-10-18 12:11:32.961    BuildSettingsHelpers	-- Found Derived/InfoPlists/dynatrace-example-Info.plist
+2024-10-18 12:11:32.962    BuildSettingsHelpers	-- Found Derived/InfoPlists/dynatrace-example-Info.plist
+2024-10-18 12:11:32.962    BuildSettingsHelpers	-- Found Derived/InfoPlists/dynatrace-example-Info.plist
+2024-10-18 12:11:32.962    BuildSettingsHelpers	-- Found Derived/InfoPlists/dynatrace-example-Info.plist
+2024-10-18 12:11:32.962    BuildSettingsHelpers	-- Found Derived/InfoPlists/dynatrace-example-Info.plist
+2024-10-18 12:11:32.962    BuildSettingsHelpers	- Checking Derived/InfoPlists/dynatrace-exampleTests-Info.plist
+2024-10-18 12:11:32.963    BuildSettingsHelpers	- Checking Carthage/Build/Dynatrace.xcframework/tvos-arm64/Dynatrace.framework/Info.plist
+2024-10-18 12:11:32.963    BuildSettingsHelpers	-- Found Carthage/Build/Dynatrace.xcframework/tvos-arm64/Dynatrace.framework/Info.plist
+2024-10-18 12:11:32.963    BuildSettingsHelpers	-- Found Carthage/Build/Dynatrace.xcframework/tvos-arm64/Dynatrace.framework/Info.plist
+2024-10-18 12:11:32.964    BuildSettingsHelpers	- Checking Carthage/Build/Dynatrace.xcframework/tvos-arm64_x86_64-simulator/Dynatrace.framework/Info.plist
+2024-10-18 12:11:32.964    BuildSettingsHelpers	-- Found Carthage/Build/Dynatrace.xcframework/tvos-arm64_x86_64-simulator/Dynatrace.framework/Info.plist
+2024-10-18 12:11:32.964    BuildSettingsHelpers	-- Found Carthage/Build/Dynatrace.xcframework/tvos-arm64_x86_64-simulator/Dynatrace.framework/Info.plist
+2024-10-18 12:11:32.965    BuildSettingsHelpers	- Checking Carthage/Build/Dynatrace.xcframework/ios-arm64_x86_64-simulator/Dynatrace.framework/Info.plist
+2024-10-18 12:11:32.965    BuildSettingsHelpers	-- Found Carthage/Build/Dynatrace.xcframework/ios-arm64_x86_64-simulator/Dynatrace.framework/Info.plist
+2024-10-18 12:11:32.965    BuildSettingsHelpers	-- Found Carthage/Build/Dynatrace.xcframework/ios-arm64_x86_64-simulator/Dynatrace.framework/Info.plist
+2024-10-18 12:11:32.966    BuildSettingsHelpers	- Checking Carthage/Build/Dynatrace.xcframework/ios-arm64/Dynatrace.framework/Info.plist
+2024-10-18 12:11:32.966    BuildSettingsHelpers	-- Found Carthage/Build/Dynatrace.xcframework/ios-arm64/Dynatrace.framework/Info.plist
+2024-10-18 12:11:32.966    BuildSettingsHelpers	-- Found Carthage/Build/Dynatrace.xcframework/ios-arm64/Dynatrace.framework/Info.plist
+2024-10-18 12:11:32.966    BuildSettingsHelpers	- Checking Carthage/Build/Dynatrace.xcframework/Info.plist
+2024-10-18 12:11:32.966    BuildSettingsHelpers	- Checking Carthage/Build/iOS/DynatraceSessionReplay.framework/CoreDataModel.momd/VersionInfo.plist
+2024-10-18 12:11:32.967    BuildSettingsHelpers	- Checking Carthage/Build/iOS/DynatraceSessionReplay.framework/Info.plist
+2024-10-18 12:11:32.967    BuildSettingsHelpers	-- Found Carthage/Build/iOS/DynatraceSessionReplay.framework/Info.plist
+2024-10-18 12:11:32.967    BuildSettingsHelpers	-- Found Carthage/Build/iOS/DynatraceSessionReplay.framework/Info.plist
+2024-10-18 12:11:32.967    BuildSettingsHelpers	-- Found Carthage/Build/iOS/DynatraceSessionReplay.framework/Info.plist
+2024-10-18 12:11:32.968    BuildSettingsHelpers	- Checking Carthage/Build/iOS/Dynatrace.framework/Info.plist
+2024-10-18 12:11:32.968    BuildSettingsHelpers	-- Found Carthage/Build/iOS/Dynatrace.framework/Info.plist
+2024-10-18 12:11:32.968    BuildSettingsHelpers	-- Found Carthage/Build/iOS/Dynatrace.framework/Info.plist
+2024-10-18 12:11:32.969    BuildSettingsHelpers	- Checking Carthage/Build/tvOS/DynatraceTVOS.framework/Info.plist
+2024-10-18 12:11:32.969    BuildSettingsHelpers	-- Found Carthage/Build/tvOS/DynatraceTVOS.framework/Info.plist
+2024-10-18 12:11:32.969    BuildSettingsHelpers	-- Found Carthage/Build/tvOS/DynatraceTVOS.framework/Info.plist
+2024-10-18 12:11:32.970    BuildSettingsHelpers	- Checking Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64_x86_64-simulator/DynatraceSessionReplay.framework/CoreDataModel.momd/VersionInfo.plist
+2024-10-18 12:11:32.971    BuildSettingsHelpers	- Checking Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64_x86_64-simulator/DynatraceSessionReplay.framework/Info.plist
+2024-10-18 12:11:32.971    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64_x86_64-simulator/DynatraceSessionReplay.framework/Info.plist
+2024-10-18 12:11:32.971    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64_x86_64-simulator/DynatraceSessionReplay.framework/Info.plist
+2024-10-18 12:11:32.972    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64_x86_64-simulator/DynatraceSessionReplay.framework/Info.plist
+2024-10-18 12:11:32.972    BuildSettingsHelpers	- Checking Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64/DynatraceSessionReplay.framework/CoreDataModel.momd/VersionInfo.plist
+2024-10-18 12:11:32.973    BuildSettingsHelpers	- Checking Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64/DynatraceSessionReplay.framework/Info.plist
+2024-10-18 12:11:32.973    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64/DynatraceSessionReplay.framework/Info.plist
+2024-10-18 12:11:32.973    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64/DynatraceSessionReplay.framework/Info.plist
+2024-10-18 12:11:32.973    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceSessionReplay.xcframework/ios-arm64/DynatraceSessionReplay.framework/Info.plist
+2024-10-18 12:11:32.973    BuildSettingsHelpers	- Checking Carthage/Build/DynatraceSessionReplay.xcframework/Info.plist
+2024-10-18 12:11:32.974    BuildSettingsHelpers	- Checking Carthage/Build/DynatraceStatic.xcframework/ios-arm64_x86_64-simulator/DynatraceStatic.framework/Info.plist
+2024-10-18 12:11:32.975    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceStatic.xcframework/ios-arm64_x86_64-simulator/DynatraceStatic.framework/Info.plist
+2024-10-18 12:11:32.975    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceStatic.xcframework/ios-arm64_x86_64-simulator/DynatraceStatic.framework/Info.plist
+2024-10-18 12:11:32.976    BuildSettingsHelpers	- Checking Carthage/Build/DynatraceStatic.xcframework/ios-arm64/DynatraceStatic.framework/Info.plist
+2024-10-18 12:11:32.976    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceStatic.xcframework/ios-arm64/DynatraceStatic.framework/Info.plist
+2024-10-18 12:11:32.976    BuildSettingsHelpers	-- Found Carthage/Build/DynatraceStatic.xcframework/ios-arm64/DynatraceStatic.framework/Info.plist
+2024-10-18 12:11:32.976    BuildSettingsHelpers	- Checking Carthage/Build/DynatraceStatic.xcframework/Info.plist
+2024-10-18 12:11:32.982    BuildSettingsHelpers	Found custom settings: {
     DTXApplicationID = "bdec758a-9f38-44cb-a612-26b41e2dee51";
     DTXBeaconURL = "https://dags.jtfg.com:443/mbeacon/d8393bba-1c4a-4d2d-b99b-288ec20865d3";
     DTXExcludedSwiftUIFiles =     (
@@ -70,164 +72,336 @@
     DTXcode = 1500;
     DTXcodeBuild = 15A240d;
 }
-2024-10-17 17:22:13.266    BuildSettingsHelpers	Loading excluded items list:
-2024-10-17 17:22:13.266    BuildSettingsHelpers	-- Found entry Tuist/
-2024-10-17 17:22:13.266    BuildSettingsHelpers	--- Adding Tuist/ to directory exclusion list
-2024-10-17 17:22:13.266    BuildSettingsHelpers	Done loading exclusions
-2024-10-17 17:22:13.266    BuildSettingsHelpers	- Excluded directories:
-2024-10-17 17:22:13.267    BuildSettingsHelpers	Tuist/
-2024-10-17 17:22:13.267    BuildSettingsHelpers	- Excluded files:
-2024-10-17 17:22:13.267    BuildSettingsHelpers	-
-2024-10-17 17:22:13.333    Instrument          	Acquiring instrumentation lock (/Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/.dynatrace/.lock)
-2024-10-17 17:22:13.336    UpdateCheck         	Checking for updates
-2024-10-17 17:22:13.337    UpdateCheck         	API rate limitation check active
-2024-10-17 17:22:13.337    UpdateCheck         	rate limited
-2024-10-17 17:22:13.337    UpdateCheck         	⚠️ warning ⚠️: SwiftUI Instrumentor version 8.301.1 is available. Please update.
-2024-10-17 17:22:13.337    Instrument          	Checking for project instrumentation upgrades
-2024-10-17 17:22:13.345    Instrument          	Backup and Instrument *.swift files
-2024-10-17 17:22:13.346    Instrument          	▶️⬇️ Start instrumenting: Tuist/Config.swift
-2024-10-17 17:22:13.346    Instrument          	File found on exclusion list, skipping instrumentation
-2024-10-17 17:22:13.346    Instrument          	⏹⬆️ Stop instrumenting: Tuist/Config.swift
-2024-10-17 17:22:13.347    Instrument          	▶️⬇️ Start instrumenting: Tuist/Package.swift
-2024-10-17 17:22:13.347    Instrument          	File found on exclusion list, skipping instrumentation
-2024-10-17 17:22:13.347    Instrument          	⏹⬆️ Stop instrumenting: Tuist/Package.swift
-2024-10-17 17:22:13.348    Instrument          	▶️⬇️ Start instrumenting: Derived/Sources/TuistBundle+DynatraceExample.swift
-2024-10-17 17:22:13.348    Instrument          	Copying original file Derived/Sources/TuistBundle+DynatraceExample.swift to Derived/Sources/TuistBundle+DynatraceExample.swift.orig
-2024-10-17 17:22:13.348    Instrument          	Instrumenting Derived/Sources/TuistBundle+DynatraceExample.swift.orig as Derived/Sources/TuistBundle+DynatraceExample.swift
-2024-10-17 17:22:13.349    InstrumentFile      	Instrumenting controls: ["Button", "Stepper", "Picker", "Toggle", "Slider", "NavigationLink", "PasteButton", "EditButton", "DatePicker", "ColorPicker", "MultiDatePicker", "Link", "ShareLink", "List", "TabView", "Menu"]
-2024-10-17 17:22:13.349    InstrumentFile      	Instrumenting modifiers: ["navigationDestination", "popover", "sheet", "renameAction", "onTapGesture", "refreshable"]
-2024-10-17 17:22:13.349    InstrumentFile      	Input file /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Derived/Sources/TuistBundle+DynatraceExample.swift.orig
-2024-10-17 17:22:13.353    InstrumentFile      	Instrumenting:
-2024-10-17 17:22:13.355    Rewriter            	* Adding Dynatrace import and info header
-2024-10-17 17:22:13.357    InstrumentFile      	Statistics:
-2024-10-17 17:22:13.358    InstrumentFile      	* No controls were instrumented
-2024-10-17 17:22:13.358    InstrumentFile      	* 0 warning(s) and 0 error(s) occured during instrumentation
-2024-10-17 17:22:13.358    InstrumentFile      	Didn't instrument any controls, writing unmodified file to: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Derived/Sources/TuistBundle+DynatraceExample.swift
-2024-10-17 17:22:13.358    InstrumentFile      	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Derived/Sources/TuistBundle+DynatraceExample.swift
-2024-10-17 17:22:13.358    Instrument          	⏹⬆️ Stop instrumenting: Derived/Sources/TuistBundle+DynatraceExample.swift
-2024-10-17 17:22:13.358    Instrument          	▶️⬇️ Start instrumenting: Derived/Sources/TuistAssets+DynatraceExample.swift
-2024-10-17 17:22:13.358    Instrument          	Copying original file Derived/Sources/TuistAssets+DynatraceExample.swift to Derived/Sources/TuistAssets+DynatraceExample.swift.orig
-2024-10-17 17:22:13.359    Instrument          	Instrumenting Derived/Sources/TuistAssets+DynatraceExample.swift.orig as Derived/Sources/TuistAssets+DynatraceExample.swift
-2024-10-17 17:22:13.359    InstrumentFile      	Instrumenting controls: ["Button", "Stepper", "Picker", "Toggle", "Slider", "NavigationLink", "PasteButton", "EditButton", "DatePicker", "ColorPicker", "MultiDatePicker", "Link", "ShareLink", "List", "TabView", "Menu"]
-2024-10-17 17:22:13.359    InstrumentFile      	Instrumenting modifiers: ["navigationDestination", "popover", "sheet", "renameAction", "onTapGesture", "refreshable"]
-2024-10-17 17:22:13.359    InstrumentFile      	Input file /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Derived/Sources/TuistAssets+DynatraceExample.swift.orig
-2024-10-17 17:22:13.360    InstrumentFile      	Instrumenting:
-2024-10-17 17:22:13.360    Rewriter            	* Adding Dynatrace import and info header
-2024-10-17 17:22:13.361    InstrumentFile      	Statistics:
-2024-10-17 17:22:13.361    InstrumentFile      	* No controls were instrumented
-2024-10-17 17:22:13.361    InstrumentFile      	* 0 warning(s) and 0 error(s) occured during instrumentation
-2024-10-17 17:22:13.362    InstrumentFile      	Didn't instrument any controls, writing unmodified file to: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Derived/Sources/TuistAssets+DynatraceExample.swift
-2024-10-17 17:22:13.362    InstrumentFile      	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Derived/Sources/TuistAssets+DynatraceExample.swift
-2024-10-17 17:22:13.362    Instrument          	⏹⬆️ Stop instrumenting: Derived/Sources/TuistAssets+DynatraceExample.swift
-2024-10-17 17:22:13.363    Instrument          	▶️⬇️ Start instrumenting: dynatrace-example/Tests/DynatraceExample2Tests.swift
-2024-10-17 17:22:13.363    Instrument          	Copying original file dynatrace-example/Tests/DynatraceExample2Tests.swift to dynatrace-example/Tests/DynatraceExample2Tests.swift.orig
-2024-10-17 17:22:13.363    Instrument          	Instrumenting dynatrace-example/Tests/DynatraceExample2Tests.swift.orig as dynatrace-example/Tests/DynatraceExample2Tests.swift
-2024-10-17 17:22:13.363    InstrumentFile      	Instrumenting controls: ["Button", "Stepper", "Picker", "Toggle", "Slider", "NavigationLink", "PasteButton", "EditButton", "DatePicker", "ColorPicker", "MultiDatePicker", "Link", "ShareLink", "List", "TabView", "Menu"]
-2024-10-17 17:22:13.363    InstrumentFile      	Instrumenting modifiers: ["navigationDestination", "popover", "sheet", "renameAction", "onTapGesture", "refreshable"]
-2024-10-17 17:22:13.364    InstrumentFile      	Input file /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Tests/DynatraceExample2Tests.swift.orig
-2024-10-17 17:22:13.365    InstrumentFile      	Instrumenting:
-2024-10-17 17:22:13.365    Rewriter            	* Adding Dynatrace import and info header
-2024-10-17 17:22:13.365    InstrumentFile      	Statistics:
-2024-10-17 17:22:13.366    InstrumentFile      	* No controls were instrumented
-2024-10-17 17:22:13.366    InstrumentFile      	* 0 warning(s) and 0 error(s) occured during instrumentation
-2024-10-17 17:22:13.366    InstrumentFile      	Didn't instrument any controls, writing unmodified file to: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Tests/DynatraceExample2Tests.swift
-2024-10-17 17:22:13.366    InstrumentFile      	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Tests/DynatraceExample2Tests.swift
-2024-10-17 17:22:13.366    Instrument          	⏹⬆️ Stop instrumenting: dynatrace-example/Tests/DynatraceExample2Tests.swift
-2024-10-17 17:22:13.366    Instrument          	▶️⬇️ Start instrumenting: dynatrace-example/Sources/AppDelegate.swift
-2024-10-17 17:22:13.367    Instrument          	Copying original file dynatrace-example/Sources/AppDelegate.swift to dynatrace-example/Sources/AppDelegate.swift.orig
-2024-10-17 17:22:13.367    Instrument          	Instrumenting dynatrace-example/Sources/AppDelegate.swift.orig as dynatrace-example/Sources/AppDelegate.swift
-2024-10-17 17:22:13.367    InstrumentFile      	Instrumenting controls: ["Button", "Stepper", "Picker", "Toggle", "Slider", "NavigationLink", "PasteButton", "EditButton", "DatePicker", "ColorPicker", "MultiDatePicker", "Link", "ShareLink", "List", "TabView", "Menu"]
-2024-10-17 17:22:13.368    InstrumentFile      	Instrumenting modifiers: ["navigationDestination", "popover", "sheet", "renameAction", "onTapGesture", "refreshable"]
-2024-10-17 17:22:13.368    InstrumentFile      	Input file /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/AppDelegate.swift.orig
-2024-10-17 17:22:13.368    InstrumentFile      	Instrumenting:
-2024-10-17 17:22:13.368    Rewriter            	* Adding Dynatrace import and info header
-2024-10-17 17:22:13.368    InstrumentFile      	Statistics:
-2024-10-17 17:22:13.369    InstrumentFile      	* No controls were instrumented
-2024-10-17 17:22:13.369    InstrumentFile      	* 0 warning(s) and 0 error(s) occured during instrumentation
-2024-10-17 17:22:13.369    InstrumentFile      	Didn't instrument any controls, writing unmodified file to: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/AppDelegate.swift
-2024-10-17 17:22:13.369    InstrumentFile      	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/AppDelegate.swift
-2024-10-17 17:22:13.369    Instrument          	⏹⬆️ Stop instrumenting: dynatrace-example/Sources/AppDelegate.swift
-2024-10-17 17:22:13.369    Instrument          	▶️⬇️ Start instrumenting: dynatrace-example/Sources/main.swift
-2024-10-17 17:22:13.369    Instrument          	Copying original file dynatrace-example/Sources/main.swift to dynatrace-example/Sources/main.swift.orig
-2024-10-17 17:22:13.370    Instrument          	Instrumenting dynatrace-example/Sources/main.swift.orig as dynatrace-example/Sources/main.swift
-2024-10-17 17:22:13.370    InstrumentFile      	Instrumenting controls: ["Button", "Stepper", "Picker", "Toggle", "Slider", "NavigationLink", "PasteButton", "EditButton", "DatePicker", "ColorPicker", "MultiDatePicker", "Link", "ShareLink", "List", "TabView", "Menu"]
-2024-10-17 17:22:13.370    InstrumentFile      	Instrumenting modifiers: ["navigationDestination", "popover", "sheet", "renameAction", "onTapGesture", "refreshable"]
-2024-10-17 17:22:13.370    InstrumentFile      	Input file /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/main.swift.orig
-2024-10-17 17:22:13.370    InstrumentFile      	Instrumenting:
-2024-10-17 17:22:13.371    Rewriter            	* Adding Dynatrace import and info header
-2024-10-17 17:22:13.371    InstrumentFile      	Statistics:
-2024-10-17 17:22:13.371    InstrumentFile      	* No controls were instrumented
-2024-10-17 17:22:13.371    InstrumentFile      	* 0 warning(s) and 0 error(s) occured during instrumentation
-2024-10-17 17:22:13.371    InstrumentFile      	Didn't instrument any controls, writing unmodified file to: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/main.swift
-2024-10-17 17:22:13.371    InstrumentFile      	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/main.swift
-2024-10-17 17:22:13.371    Instrument          	⏹⬆️ Stop instrumenting: dynatrace-example/Sources/main.swift
-2024-10-17 17:22:13.371    Instrument          	▶️⬇️ Start instrumenting: dynatrace-example/Sources/ContentView.swift
-2024-10-17 17:22:13.372    Instrument          	Copying original file dynatrace-example/Sources/ContentView.swift to dynatrace-example/Sources/ContentView.swift.orig
-2024-10-17 17:22:13.372    Instrument          	Instrumenting dynatrace-example/Sources/ContentView.swift.orig as dynatrace-example/Sources/ContentView.swift
-2024-10-17 17:22:13.372    InstrumentFile      	Instrumenting controls: ["Button", "Stepper", "Picker", "Toggle", "Slider", "NavigationLink", "PasteButton", "EditButton", "DatePicker", "ColorPicker", "MultiDatePicker", "Link", "ShareLink", "List", "TabView", "Menu"]
-2024-10-17 17:22:13.372    InstrumentFile      	Instrumenting modifiers: ["navigationDestination", "popover", "sheet", "renameAction", "onTapGesture", "refreshable"]
-2024-10-17 17:22:13.372    InstrumentFile      	Input file /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/ContentView.swift.orig
-2024-10-17 17:22:13.373    InstrumentFile      	Instrumenting:
-2024-10-17 17:22:13.373    Rewriter            	* Adding Dynatrace import and info header
-2024-10-17 17:22:13.373    InstrumentFile      	Statistics:
-2024-10-17 17:22:13.373    InstrumentFile      	* No controls were instrumented
-2024-10-17 17:22:13.373    InstrumentFile      	* 0 warning(s) and 0 error(s) occured during instrumentation
-2024-10-17 17:22:13.373    InstrumentFile      	Didn't instrument any controls, writing unmodified file to: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/ContentView.swift
-2024-10-17 17:22:13.373    InstrumentFile      	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/ContentView.swift
-2024-10-17 17:22:13.373    Instrument          	⏹⬆️ Stop instrumenting: dynatrace-example/Sources/ContentView.swift
-2024-10-17 17:22:13.380    Instrument          	▶️⬇️ Start instrumenting: Project.swift
-2024-10-17 17:22:13.380    Instrument          	Copying original file Project.swift to Project.swift.orig
-2024-10-17 17:22:13.381    Instrument          	Instrumenting Project.swift.orig as Project.swift
-2024-10-17 17:22:13.381    InstrumentFile      	Instrumenting controls: ["Button", "Stepper", "Picker", "Toggle", "Slider", "NavigationLink", "PasteButton", "EditButton", "DatePicker", "ColorPicker", "MultiDatePicker", "Link", "ShareLink", "List", "TabView", "Menu"]
-2024-10-17 17:22:13.381    InstrumentFile      	Instrumenting modifiers: ["navigationDestination", "popover", "sheet", "renameAction", "onTapGesture", "refreshable"]
-2024-10-17 17:22:13.381    InstrumentFile      	Input file /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Project.swift.orig
-2024-10-17 17:22:13.382    InstrumentFile      	Instrumenting:
-2024-10-17 17:22:13.382    Rewriter            	* Adding Dynatrace import and info header
-2024-10-17 17:22:13.383    InstrumentFile      	Statistics:
-2024-10-17 17:22:13.383    InstrumentFile      	* No controls were instrumented
-2024-10-17 17:22:13.383    InstrumentFile      	* 0 warning(s) and 0 error(s) occured during instrumentation
-2024-10-17 17:22:13.383    InstrumentFile      	Didn't instrument any controls, writing unmodified file to: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Project.swift
-2024-10-17 17:22:13.383    InstrumentFile      	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Project.swift
-2024-10-17 17:22:13.383    Instrument          	⏹⬆️ Stop instrumenting: Project.swift
-2024-10-17 17:22:13.391    Instrument          	❌ error ❌: Couldn't find a Dynatrace mapping file placeholder in the instrumented project. This placeholder is generated automatically in your project's @main/@UIApplicationMain class/struct (e.g. AppDelegate, App). If the main entry point is Objective-C based or a custom statist Swift main function is used the automation insertion won't work. You can manually insert the placeholder and override this error, see https://www.dynatrace.com/support/help/shortlink/swiftui-instrumentation for more information.
-2024-10-17 17:22:13.391    Instrument          	⚠️ warning ⚠️: Instrumentation contains errors -> REVERTING! The build will not be instrumented!
-2024-10-17 17:22:13.392    CrashReporter       	Set started from crash to: false
-2024-10-17 17:22:13.392    Restore             	Backup instrumented *.swift files and restore original versions
-2024-10-17 17:22:13.393    Restore             	⏮⬇️ Start restoring: Derived/Sources/TuistAssets+DynatraceExample.swift.orig
-2024-10-17 17:22:13.393    Restore             	Collecting intrumented file for review (Derived/Sources/TuistAssets+DynatraceExample.swift -> dynatrace_instrumented/current/Derived/Sources/TuistAssets+DynatraceExample.swift
-2024-10-17 17:22:13.394    Restore             	Restoring original source file from Derived/Sources/TuistAssets+DynatraceExample.swift.orig to Derived/Sources/TuistAssets+DynatraceExample.swift
-2024-10-17 17:22:13.394    Restore             	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Derived/Sources/TuistAssets+DynatraceExample.swift
-2024-10-17 17:22:13.394    Restore             	⏹⬆️ Stop restoring: Derived/Sources/TuistAssets+DynatraceExample.swift.orig
-2024-10-17 17:22:13.394    Restore             	⏮⬇️ Start restoring: Derived/Sources/TuistBundle+DynatraceExample.swift.orig
-2024-10-17 17:22:13.394    Restore             	Collecting intrumented file for review (Derived/Sources/TuistBundle+DynatraceExample.swift -> dynatrace_instrumented/current/Derived/Sources/TuistBundle+DynatraceExample.swift
-2024-10-17 17:22:13.395    Restore             	Restoring original source file from Derived/Sources/TuistBundle+DynatraceExample.swift.orig to Derived/Sources/TuistBundle+DynatraceExample.swift
-2024-10-17 17:22:13.395    Restore             	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Derived/Sources/TuistBundle+DynatraceExample.swift
-2024-10-17 17:22:13.395    Restore             	⏹⬆️ Stop restoring: Derived/Sources/TuistBundle+DynatraceExample.swift.orig
-2024-10-17 17:22:13.395    Restore             	⏮⬇️ Start restoring: dynatrace-example/Tests/DynatraceExample2Tests.swift.orig
-2024-10-17 17:22:13.395    Restore             	Collecting intrumented file for review (dynatrace-example/Tests/DynatraceExample2Tests.swift -> dynatrace_instrumented/current/dynatrace-example/Tests/DynatraceExample2Tests.swift
-2024-10-17 17:22:13.396    Restore             	Restoring original source file from dynatrace-example/Tests/DynatraceExample2Tests.swift.orig to dynatrace-example/Tests/DynatraceExample2Tests.swift
-2024-10-17 17:22:13.396    Restore             	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Tests/DynatraceExample2Tests.swift
-2024-10-17 17:22:13.396    Restore             	⏹⬆️ Stop restoring: dynatrace-example/Tests/DynatraceExample2Tests.swift.orig
-2024-10-17 17:22:13.396    Restore             	⏮⬇️ Start restoring: dynatrace-example/Sources/ContentView.swift.orig
-2024-10-17 17:22:13.397    Restore             	Collecting intrumented file for review (dynatrace-example/Sources/ContentView.swift -> dynatrace_instrumented/current/dynatrace-example/Sources/ContentView.swift
-2024-10-17 17:22:13.397    Restore             	Restoring original source file from dynatrace-example/Sources/ContentView.swift.orig to dynatrace-example/Sources/ContentView.swift
-2024-10-17 17:22:13.397    Restore             	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/ContentView.swift
-2024-10-17 17:22:13.397    Restore             	⏹⬆️ Stop restoring: dynatrace-example/Sources/ContentView.swift.orig
-2024-10-17 17:22:13.397    Restore             	⏮⬇️ Start restoring: dynatrace-example/Sources/main.swift.orig
-2024-10-17 17:22:13.398    Restore             	Collecting intrumented file for review (dynatrace-example/Sources/main.swift -> dynatrace_instrumented/current/dynatrace-example/Sources/main.swift
-2024-10-17 17:22:13.398    Restore             	Restoring original source file from dynatrace-example/Sources/main.swift.orig to dynatrace-example/Sources/main.swift
-2024-10-17 17:22:13.398    Restore             	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/main.swift
-2024-10-17 17:22:13.398    Restore             	⏹⬆️ Stop restoring: dynatrace-example/Sources/main.swift.orig
-2024-10-17 17:22:13.398    Restore             	⏮⬇️ Start restoring: dynatrace-example/Sources/AppDelegate.swift.orig
-2024-10-17 17:22:13.398    Restore             	Collecting intrumented file for review (dynatrace-example/Sources/AppDelegate.swift -> dynatrace_instrumented/current/dynatrace-example/Sources/AppDelegate.swift
-2024-10-17 17:22:13.399    Restore             	Restoring original source file from dynatrace-example/Sources/AppDelegate.swift.orig to dynatrace-example/Sources/AppDelegate.swift
-2024-10-17 17:22:13.399    Restore             	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/AppDelegate.swift
-2024-10-17 17:22:13.399    Restore             	⏹⬆️ Stop restoring: dynatrace-example/Sources/AppDelegate.swift.orig
-2024-10-17 17:22:13.404    Restore             	⏮⬇️ Start restoring: Project.swift.orig
-2024-10-17 17:22:13.404    Restore             	Collecting intrumented file for review (Project.swift -> dynatrace_instrumented/current/Project.swift
-2024-10-17 17:22:13.404    Restore             	Restoring original source file from Project.swift.orig to Project.swift
-2024-10-17 17:22:13.404    Restore             	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Project.swift
-2024-10-17 17:22:13.405    Restore             	⏹⬆️ Stop restoring: Project.swift.orig
-2024-10-17 17:22:13.406    Restore             	Freeing instrumentation lock (/Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/.dynatrace/.lock)
-2024-10-17 17:22:13.406    Restore             	Zipping instrumentation to /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace_instrumented/2024-10-17_172213_dynatrace_instrumented.zip
-2024-10-17 17:22:13.413    Restore             	Restoration completed
+2024-10-18 12:11:32.983    BuildSettingsHelpers	Loading excluded items list:
+2024-10-18 12:11:32.983    BuildSettingsHelpers	-- Found entry Tuist/
+2024-10-18 12:11:32.983    BuildSettingsHelpers	--- Adding Tuist/ to directory exclusion list
+2024-10-18 12:11:32.983    BuildSettingsHelpers	Done loading exclusions
+2024-10-18 12:11:32.983    BuildSettingsHelpers	- Excluded directories:
+2024-10-18 12:11:32.983    BuildSettingsHelpers	Tuist/
+2024-10-18 12:11:32.983    BuildSettingsHelpers	- Excluded files:
+2024-10-18 12:11:32.983    BuildSettingsHelpers	-
+2024-10-18 12:11:33.051    Instrument          	Acquiring instrumentation lock (/Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/.dynatrace/.lock)
+2024-10-18 12:11:33.055    UpdateCheck         	Checking for updates
+2024-10-18 12:11:33.055    UpdateCheck         	API rate limitation check active
+2024-10-18 12:11:33.056    UpdateCheck         	rate limited
+2024-10-18 12:11:33.056    UpdateCheck         	⚠️ warning ⚠️: SwiftUI Instrumentor version 8.301.1 is available. Please update.
+2024-10-18 12:11:33.056    Instrument          	Checking for project instrumentation upgrades
+2024-10-18 12:11:33.061    Instrument          	Backup and Instrument *.swift files
+2024-10-18 12:11:33.062    Instrument          	▶️⬇️ Start instrumenting: Tuist/Config.swift
+2024-10-18 12:11:33.062    Instrument          	File found on exclusion list, skipping instrumentation
+2024-10-18 12:11:33.062    Instrument          	⏹⬆️ Stop instrumenting: Tuist/Config.swift
+2024-10-18 12:11:33.062    Instrument          	▶️⬇️ Start instrumenting: Tuist/Package.swift
+2024-10-18 12:11:33.062    Instrument          	File found on exclusion list, skipping instrumentation
+2024-10-18 12:11:33.062    Instrument          	⏹⬆️ Stop instrumenting: Tuist/Package.swift
+2024-10-18 12:11:33.063    Instrument          	▶️⬇️ Start instrumenting: Derived/Sources/TuistBundle+DynatraceExample.swift
+2024-10-18 12:11:33.063    Instrument          	Copying original file Derived/Sources/TuistBundle+DynatraceExample.swift to Derived/Sources/TuistBundle+DynatraceExample.swift.orig
+2024-10-18 12:11:33.063    Instrument          	Instrumenting Derived/Sources/TuistBundle+DynatraceExample.swift.orig as Derived/Sources/TuistBundle+DynatraceExample.swift
+2024-10-18 12:11:33.064    InstrumentFile      	Instrumenting controls: ["Button", "Stepper", "Picker", "Toggle", "Slider", "NavigationLink", "PasteButton", "EditButton", "DatePicker", "ColorPicker", "MultiDatePicker", "Link", "ShareLink", "List", "TabView", "Menu"]
+2024-10-18 12:11:33.064    InstrumentFile      	Instrumenting modifiers: ["navigationDestination", "popover", "sheet", "renameAction", "onTapGesture", "refreshable"]
+2024-10-18 12:11:33.064    InstrumentFile      	Input file /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Derived/Sources/TuistBundle+DynatraceExample.swift.orig
+2024-10-18 12:11:33.065    InstrumentFile      	Instrumenting:
+2024-10-18 12:11:33.065    Rewriter            	* Adding Dynatrace import and info header
+2024-10-18 12:11:33.066    InstrumentFile      	Statistics:
+2024-10-18 12:11:33.066    InstrumentFile      	* No controls were instrumented
+2024-10-18 12:11:33.066    InstrumentFile      	* 0 warning(s) and 0 error(s) occured during instrumentation
+2024-10-18 12:11:33.066    InstrumentFile      	Didn't instrument any controls, writing unmodified file to: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Derived/Sources/TuistBundle+DynatraceExample.swift
+2024-10-18 12:11:33.066    InstrumentFile      	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Derived/Sources/TuistBundle+DynatraceExample.swift
+2024-10-18 12:11:33.066    Instrument          	⏹⬆️ Stop instrumenting: Derived/Sources/TuistBundle+DynatraceExample.swift
+2024-10-18 12:11:33.066    Instrument          	▶️⬇️ Start instrumenting: Derived/Sources/TuistAssets+DynatraceExample.swift
+2024-10-18 12:11:33.067    Instrument          	Copying original file Derived/Sources/TuistAssets+DynatraceExample.swift to Derived/Sources/TuistAssets+DynatraceExample.swift.orig
+2024-10-18 12:11:33.067    Instrument          	Instrumenting Derived/Sources/TuistAssets+DynatraceExample.swift.orig as Derived/Sources/TuistAssets+DynatraceExample.swift
+2024-10-18 12:11:33.067    InstrumentFile      	Instrumenting controls: ["Button", "Stepper", "Picker", "Toggle", "Slider", "NavigationLink", "PasteButton", "EditButton", "DatePicker", "ColorPicker", "MultiDatePicker", "Link", "ShareLink", "List", "TabView", "Menu"]
+2024-10-18 12:11:33.067    InstrumentFile      	Instrumenting modifiers: ["navigationDestination", "popover", "sheet", "renameAction", "onTapGesture", "refreshable"]
+2024-10-18 12:11:33.068    InstrumentFile      	Input file /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Derived/Sources/TuistAssets+DynatraceExample.swift.orig
+2024-10-18 12:11:33.068    InstrumentFile      	Instrumenting:
+2024-10-18 12:11:33.068    Rewriter            	* Adding Dynatrace import and info header
+2024-10-18 12:11:33.069    InstrumentFile      	Statistics:
+2024-10-18 12:11:33.069    InstrumentFile      	* No controls were instrumented
+2024-10-18 12:11:33.069    InstrumentFile      	* 0 warning(s) and 0 error(s) occured during instrumentation
+2024-10-18 12:11:33.069    InstrumentFile      	Didn't instrument any controls, writing unmodified file to: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Derived/Sources/TuistAssets+DynatraceExample.swift
+2024-10-18 12:11:33.069    InstrumentFile      	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Derived/Sources/TuistAssets+DynatraceExample.swift
+2024-10-18 12:11:33.069    Instrument          	⏹⬆️ Stop instrumenting: Derived/Sources/TuistAssets+DynatraceExample.swift
+2024-10-18 12:11:33.070    Instrument          	▶️⬇️ Start instrumenting: dynatrace-example/Tests/DynatraceExample2Tests.swift
+2024-10-18 12:11:33.070    Instrument          	Copying original file dynatrace-example/Tests/DynatraceExample2Tests.swift to dynatrace-example/Tests/DynatraceExample2Tests.swift.orig
+2024-10-18 12:11:33.070    Instrument          	Instrumenting dynatrace-example/Tests/DynatraceExample2Tests.swift.orig as dynatrace-example/Tests/DynatraceExample2Tests.swift
+2024-10-18 12:11:33.071    InstrumentFile      	Instrumenting controls: ["Button", "Stepper", "Picker", "Toggle", "Slider", "NavigationLink", "PasteButton", "EditButton", "DatePicker", "ColorPicker", "MultiDatePicker", "Link", "ShareLink", "List", "TabView", "Menu"]
+2024-10-18 12:11:33.071    InstrumentFile      	Instrumenting modifiers: ["navigationDestination", "popover", "sheet", "renameAction", "onTapGesture", "refreshable"]
+2024-10-18 12:11:33.071    InstrumentFile      	Input file /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Tests/DynatraceExample2Tests.swift.orig
+2024-10-18 12:11:33.071    InstrumentFile      	Instrumenting:
+2024-10-18 12:11:33.071    Rewriter            	* Adding Dynatrace import and info header
+2024-10-18 12:11:33.072    InstrumentFile      	Statistics:
+2024-10-18 12:11:33.072    InstrumentFile      	* No controls were instrumented
+2024-10-18 12:11:33.072    InstrumentFile      	* 0 warning(s) and 0 error(s) occured during instrumentation
+2024-10-18 12:11:33.072    InstrumentFile      	Didn't instrument any controls, writing unmodified file to: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Tests/DynatraceExample2Tests.swift
+2024-10-18 12:11:33.072    InstrumentFile      	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Tests/DynatraceExample2Tests.swift
+2024-10-18 12:11:33.072    Instrument          	⏹⬆️ Stop instrumenting: dynatrace-example/Tests/DynatraceExample2Tests.swift
+2024-10-18 12:11:33.072    Instrument          	▶️⬇️ Start instrumenting: dynatrace-example/Sources/AppDelegate.swift
+2024-10-18 12:11:33.073    Instrument          	Copying original file dynatrace-example/Sources/AppDelegate.swift to dynatrace-example/Sources/AppDelegate.swift.orig
+2024-10-18 12:11:33.073    Instrument          	Instrumenting dynatrace-example/Sources/AppDelegate.swift.orig as dynatrace-example/Sources/AppDelegate.swift
+2024-10-18 12:11:33.073    InstrumentFile      	Instrumenting controls: ["Button", "Stepper", "Picker", "Toggle", "Slider", "NavigationLink", "PasteButton", "EditButton", "DatePicker", "ColorPicker", "MultiDatePicker", "Link", "ShareLink", "List", "TabView", "Menu"]
+2024-10-18 12:11:33.073    InstrumentFile      	Instrumenting modifiers: ["navigationDestination", "popover", "sheet", "renameAction", "onTapGesture", "refreshable"]
+2024-10-18 12:11:33.073    InstrumentFile      	Input file /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/AppDelegate.swift.orig
+2024-10-18 12:11:33.074    InstrumentFile      	Instrumenting:
+2024-10-18 12:11:33.074    Rewriter            	* Adding Dynatrace info header
+2024-10-18 12:11:33.074    InstrumentFile      	Statistics:
+2024-10-18 12:11:33.074    InstrumentFile      	* No controls were instrumented
+2024-10-18 12:11:33.074    InstrumentFile      	* 0 warning(s) and 0 error(s) occured during instrumentation
+2024-10-18 12:11:33.074    InstrumentFile      	Didn't instrument any controls, writing unmodified file to: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/AppDelegate.swift
+2024-10-18 12:11:33.074    InstrumentFile      	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/AppDelegate.swift
+2024-10-18 12:11:33.075    Instrument          	⏹⬆️ Stop instrumenting: dynatrace-example/Sources/AppDelegate.swift
+2024-10-18 12:11:33.075    Instrument          	▶️⬇️ Start instrumenting: dynatrace-example/Sources/main.swift
+2024-10-18 12:11:33.075    Instrument          	Copying original file dynatrace-example/Sources/main.swift to dynatrace-example/Sources/main.swift.orig
+2024-10-18 12:11:33.075    Instrument          	Instrumenting dynatrace-example/Sources/main.swift.orig as dynatrace-example/Sources/main.swift
+2024-10-18 12:11:33.075    InstrumentFile      	Instrumenting controls: ["Button", "Stepper", "Picker", "Toggle", "Slider", "NavigationLink", "PasteButton", "EditButton", "DatePicker", "ColorPicker", "MultiDatePicker", "Link", "ShareLink", "List", "TabView", "Menu"]
+2024-10-18 12:11:33.075    InstrumentFile      	Instrumenting modifiers: ["navigationDestination", "popover", "sheet", "renameAction", "onTapGesture", "refreshable"]
+2024-10-18 12:11:33.076    InstrumentFile      	Input file /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/main.swift.orig
+2024-10-18 12:11:33.076    InstrumentFile      	Instrumenting:
+2024-10-18 12:11:33.076    Rewriter            	* Adding Dynatrace import and info header
+2024-10-18 12:11:33.076    InstrumentFile      	Statistics:
+2024-10-18 12:11:33.076    InstrumentFile      	* No controls were instrumented
+2024-10-18 12:11:33.077    InstrumentFile      	* 0 warning(s) and 0 error(s) occured during instrumentation
+2024-10-18 12:11:33.077    InstrumentFile      	Didn't instrument any controls, writing unmodified file to: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/main.swift
+2024-10-18 12:11:33.077    InstrumentFile      	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/main.swift
+2024-10-18 12:11:33.077    Instrument          	⏹⬆️ Stop instrumenting: dynatrace-example/Sources/main.swift
+2024-10-18 12:11:33.077    Instrument          	▶️⬇️ Start instrumenting: dynatrace-example/Sources/ContentView.swift
+2024-10-18 12:11:33.077    Instrument          	Copying original file dynatrace-example/Sources/ContentView.swift to dynatrace-example/Sources/ContentView.swift.orig
+2024-10-18 12:11:33.078    Instrument          	Instrumenting dynatrace-example/Sources/ContentView.swift.orig as dynatrace-example/Sources/ContentView.swift
+2024-10-18 12:11:33.078    InstrumentFile      	Instrumenting controls: ["Button", "Stepper", "Picker", "Toggle", "Slider", "NavigationLink", "PasteButton", "EditButton", "DatePicker", "ColorPicker", "MultiDatePicker", "Link", "ShareLink", "List", "TabView", "Menu"]
+2024-10-18 12:11:33.078    InstrumentFile      	Instrumenting modifiers: ["navigationDestination", "popover", "sheet", "renameAction", "onTapGesture", "refreshable"]
+2024-10-18 12:11:33.078    InstrumentFile      	Input file /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/ContentView.swift.orig
+2024-10-18 12:11:33.078    InstrumentFile      	Instrumenting:
+2024-10-18 12:11:33.079    Rewriter            	* Adding Dynatrace import and info header
+2024-10-18 12:11:33.079    InstrumentFile      	Statistics:
+2024-10-18 12:11:33.079    InstrumentFile      	* No controls were instrumented
+2024-10-18 12:11:33.079    InstrumentFile      	* 0 warning(s) and 0 error(s) occured during instrumentation
+2024-10-18 12:11:33.079    InstrumentFile      	Didn't instrument any controls, writing unmodified file to: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/ContentView.swift
+2024-10-18 12:11:33.079    InstrumentFile      	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/ContentView.swift
+2024-10-18 12:11:33.079    Instrument          	⏹⬆️ Stop instrumenting: dynatrace-example/Sources/ContentView.swift
+2024-10-18 12:11:33.089    Instrument          	▶️⬇️ Start instrumenting: Project.swift
+2024-10-18 12:11:33.090    Instrument          	Copying original file Project.swift to Project.swift.orig
+2024-10-18 12:11:33.090    Instrument          	Instrumenting Project.swift.orig as Project.swift
+2024-10-18 12:11:33.090    InstrumentFile      	Instrumenting controls: ["Button", "Stepper", "Picker", "Toggle", "Slider", "NavigationLink", "PasteButton", "EditButton", "DatePicker", "ColorPicker", "MultiDatePicker", "Link", "ShareLink", "List", "TabView", "Menu"]
+2024-10-18 12:11:33.091    InstrumentFile      	Instrumenting modifiers: ["navigationDestination", "popover", "sheet", "renameAction", "onTapGesture", "refreshable"]
+2024-10-18 12:11:33.091    InstrumentFile      	Input file /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Project.swift.orig
+2024-10-18 12:11:33.091    InstrumentFile      	Instrumenting:
+2024-10-18 12:11:33.092    Rewriter            	* Adding Dynatrace import and info header
+2024-10-18 12:11:33.092    InstrumentFile      	Statistics:
+2024-10-18 12:11:33.092    InstrumentFile      	* No controls were instrumented
+2024-10-18 12:11:33.092    InstrumentFile      	* 0 warning(s) and 0 error(s) occured during instrumentation
+2024-10-18 12:11:33.092    InstrumentFile      	Didn't instrument any controls, writing unmodified file to: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Project.swift
+2024-10-18 12:11:33.092    InstrumentFile      	Truncating and replacing: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Project.swift
+2024-10-18 12:11:33.093    Instrument          	⏹⬆️ Stop instrumenting: Project.swift
+2024-10-18 12:11:33.099    Instrument          	Found Dynatrace mapping file placeholders in: dynatrace-example/Sources/AppDelegate.swift
+2024-10-18 12:11:33.108    Instrument          	Generating line number mapping in: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example
+2024-10-18 12:11:33.109    LineMapping         	- Creating mapping for file: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Derived/Sources/TuistAssets+DynatraceExample.swift.orig
+2024-10-18 12:11:33.109    LineMapping         	Diff is empty, skipping post-processing
+2024-10-18 12:11:33.109    LineMapping         	- Creating mapping for file: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Derived/Sources/TuistBundle+DynatraceExample.swift.orig
+2024-10-18 12:11:33.109    LineMapping         	Diff is empty, skipping post-processing
+2024-10-18 12:11:33.110    LineMapping         	- Creating mapping for file: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Tests/DynatraceExample2Tests.swift.orig
+2024-10-18 12:11:33.110    LineMapping         	Diff is empty, skipping post-processing
+2024-10-18 12:11:33.110    LineMapping         	- Creating mapping for file: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/ContentView.swift.orig
+2024-10-18 12:11:33.110    LineMapping         	Diff is empty, skipping post-processing
+2024-10-18 12:11:33.110    LineMapping         	- Creating mapping for file: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/main.swift.orig
+2024-10-18 12:11:33.110    LineMapping         	Diff is empty, skipping post-processing
+2024-10-18 12:11:33.111    LineMapping         	- Creating mapping for file: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace-example/Sources/AppDelegate.swift.orig
+2024-10-18 12:11:33.111    LineMapping         	Diff is empty, skipping post-processing
+2024-10-18 12:11:33.118    LineMapping         	- Creating mapping for file: /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/Project.swift.orig
+2024-10-18 12:11:33.118    LineMapping         	Diff is empty, skipping post-processing
+2024-10-18 12:11:33.124    Instrument          	- Writing mapping file to : /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/.dynatrace/mapping.json
+2024-10-18 12:11:33.126    Instrument          	Found Dynatrace mapping file placeholders in: dynatrace-example/Sources/AppDelegate.swift
+2024-10-18 12:11:33.127    Instrument          	- Replacing with mapping file content.
+2024-10-18 12:11:33.145    main                	Starting DTSwiftInstrumentor (Version: 8.299.1.1005, Path: /opt/homebrew/bin/DTSwiftInstrumentor)
+2024-10-18 12:11:33.149    main                	Executing command: /opt/homebrew/bin/DTSwiftInstrumentor watchdog /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example
+2024-10-18 12:11:33.149    CrashReporter       	Initializing crash reporter
+2024-10-18 12:11:33.226    ProcessTools        	⚠️ warning ⚠️: Found 1 other instances of the instrumentor running. Please check if the running processes are intentional, otherwise this could be a bug (symptom). List of other instrumentor processes:
+2024-10-18 12:11:33.226    ProcessTools        	⚠️ warning ⚠️:    PID TTY           TIME CMD
+2024-10-18 12:11:33.226    ProcessTools        	⚠️ warning ⚠️: - 49216 ttys000    0:00.52 /opt/homebrew/bin/DTSwiftInstrumentor watchdog /Users/igor/Desktop/Ackee/jt-bank
+2024-10-18 12:11:33.230    Watchdog            	Build DB is located in: /Users/igor/Library/Developer/Xcode/DerivedData/dynatrace-example-comrkhsfrlrvzzfshwzdmlzerrxm/Build/Intermediates.noindex/XCBuildData/build.db
+2024-10-18 12:11:33.231    Watchdog            	DB open failed: unable to open database file
+2024-10-18 12:11:33.231    Watchdog            	Query not successful (iteration=-1 version=-1), retrying (120).
+2024-10-18 12:11:33.737    Watchdog            	Current iteration 1 on version 17
+2024-10-18 12:11:33.737    Watchdog            	Adding file system listener to: /Users/igor/Library/Developer/Xcode/DerivedData/dynatrace-example-comrkhsfrlrvzzfshwzdmlzerrxm/Build/Intermediates.noindex/XCBuildData/build.db
+2024-10-18 12:11:33.738    Watchdog            	Completed setup, notifying build instrumentation.
+2024-10-18 12:11:33.738    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:34.742    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:34.743    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:35.746    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:35.748    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:36.754    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:36.757    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:37.761    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:37.765    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:38.769    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:38.771    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:39.778    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:39.779    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:40.780    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:40.781    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:41.786    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:41.788    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:42.794    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:42.795    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:43.798    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:43.800    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:44.807    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:44.810    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:45.813    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:45.815    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:46.818    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:46.819    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:47.824    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:47.828    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:48.832    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:48.834    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:49.837    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:49.838    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:50.839    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:50.841    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:51.848    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:51.849    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:52.853    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:52.855    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:53.861    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:53.862    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:54.865    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:54.867    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:55.872    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:55.873    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:56.876    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:56.877    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:57.883    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:57.885    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:58.889    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:58.891    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:11:59.894    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:11:59.899    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:00.901    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:00.903    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:01.908    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:01.909    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:02.914    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:02.915    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:03.919    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:03.920    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:04.923    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:04.924    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:05.926    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:05.928    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:06.933    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:06.935    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:07.936    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:07.937    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:08.943    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:08.944    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:09.949    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:09.951    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:10.955    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:10.957    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:11.962    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:11.963    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:12.968    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:12.969    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:13.975    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:13.976    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:14.982    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:14.984    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:15.985    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:15.987    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:16.989    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:16.991    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:17.995    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:17.996    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:19.002    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:19.004    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:20.009    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:20.011    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:21.017    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:21.018    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:22.021    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:22.022    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:23.027    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:23.028    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:24.032    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:24.033    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:25.036    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:25.038    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:26.043    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:26.045    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:27.050    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:27.052    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:28.053    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:28.055    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:29.060    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:29.061    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:30.065    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:30.067    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:31.072    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:31.074    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:32.077    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:32.078    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:33.084    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:33.085    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:34.090    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:34.091    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:35.097    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:35.099    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:36.104    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:36.105    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:37.111    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:37.112    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:38.115    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:38.117    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:39.122    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:39.125    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:40.132    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:40.133    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:41.143    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:41.145    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:42.149    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:42.151    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:43.157    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:43.159    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:44.163    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:44.164    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:45.169    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:45.171    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:46.175    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:46.179    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:47.184    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:47.186    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:48.192    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:48.194    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:49.200    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:49.202    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:50.203    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:50.205    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:51.209    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:51.212    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:52.217    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:52.218    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:53.223    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:53.223    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:54.229    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:54.231    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:55.237    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:55.238    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:56.240    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:56.242    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:57.244    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:57.245    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:58.248    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:58.250    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:12:59.254    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:12:59.256    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:13:00.258    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:13:00.261    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:13:01.265    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:13:01.267    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:13:02.273    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:13:02.275    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:13:03.279    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:13:03.281    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:13:04.284    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:13:04.285    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second
+2024-10-18 12:13:05.288    Watchdog            	Interrupting poll interval and re-checking DB with result: timedOut
+2024-10-18 12:13:05.289    Watchdog            	No update found (iteration 1 on version 17) -> re-check in 1 second

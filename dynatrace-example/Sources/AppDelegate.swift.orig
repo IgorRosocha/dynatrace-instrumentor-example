@@ -1,5 +1,6 @@
 import SwiftUI
 import UIKit
+import Dynatrace
 
 final class AppDelegate: UIResponder, UIApplicationDelegate {
     
@@ -16,6 +17,8 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
             rootView: ContentView()
             )
         window?.makeKeyAndVisible()
+        
+        Dynatrace.handoverInstrumentorConfig([kDTXSwiftMappingJson: "_DYNATRACE_SWIFTUI_MAPPING_PLACEHOLDER_"])
         
         return true
     }
