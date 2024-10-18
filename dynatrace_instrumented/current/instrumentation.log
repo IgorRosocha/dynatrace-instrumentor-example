@@ -288,5 +288,3 @@
 2024-10-18 19:39:24.363    CrashReporter       	Set started from crash to: false
 2024-10-18 19:39:24.364    Restore             	Backup instrumented *.swift files and restore original versions
 2024-10-18 19:39:24.391    Restore             	Freeing instrumentation lock (/Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/.dynatrace/.lock)
-2024-10-18 19:39:24.392    Restore             	Zipping instrumentation to /Users/igor/Desktop/Ackee/dynatrace-instrumentor-example/dynatrace_instrumented/2024-10-18_193924_dynatrace_instrumented.zip
-2024-10-18 19:39:24.397    Restore             	Restoration completed

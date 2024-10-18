@@ -18,8 +18,7 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
             )
         window?.makeKeyAndVisible()
         
-        Dynatrace.handoverInstrumentorConfig([kDTXSwiftMappingJson: "{\"generationTime\":\"2024-10-18 12:11:33\",\"instrumentorVersion\":\"8.299.1.1005\",\"mappings\":{\"dynatrace_example\"
-:{}},\"schemaVersion\":1}"])
+        Dynatrace.handoverInstrumentorConfig([kDTXSwiftMappingJson: "_DYNATRACE_SWIFTUI_MAPPING_PLACEHOLDER_"])
         
         return true
     }
